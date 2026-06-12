@@ -301,10 +301,10 @@ h3 {
 }
 
 .placeholder span {
-  font-size: clamp(3rem, 7vw, 6rem);
+  font-size: clamp(2rem, 6vw, 5rem);
   font-weight: 900;
   color: rgba(255, 255, 255, 0.3);
-  letter-spacing: -0.05em;
+  letter-spacing: -0.04em;
 }
 
 .game-content {
