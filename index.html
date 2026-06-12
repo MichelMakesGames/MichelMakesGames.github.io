@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="MichelMakesGames — small games, big atmosphere." />
+  <title>MichelMakesGames</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="MichelMakesGames home">
+      <span class="brand-mark">MMG</span>
+      <span>MichelMakesGames</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/MichelMakesGames" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="nav-contact" href="mailto:michelmakesgames@gmail.com">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">Indie games • experiments • weird little ideas</p>
+        <h1>My name is Michel, and I make games.</h1>
+        <p class="hero-text">
+          I build small, atmospheric projects with a love for playful systems,
+          satisfying feedback, steady progression, and the kind of satisfaction that makes you click one more time.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#games">See what is cooking</a>
+          <a class="button ghost" href="mailto:michelmakesgames@gmail.com">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Mysterious card game teaser">
+        <img src="assets/mystery-card-game.jpg" alt="Playing cards scattered on green felt" />
+        <div class="hero-card-label">
+          <span>Next project</span>
+          <strong>Cards... Risks... Progression...</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="section-pad games-section">
+      <div class="section-heading">
+        <p class="eyebrow">Currently in the works</p>
+        <h2>Three games. One developer. Too many ideas.</h2>
+      </div>
+
+      <div class="game-grid">
+        <article class="game-card featured">
+          <div class="game-image image-real">
+            <img src="assets/mystery-card-game.jpg" alt="A mysterious card game teaser image" />
+          </div>
+          <div class="game-content">
+            <p class="tag">In development</p>
+            <h3>The card game I am not revealing yet</h3>
+            <p>
+              A charming game of progression, choices, luck, and consequences. Between each risky hand,
+              you grow stronger, level up, and shape your run one upgrade at a time.
+            </p>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <div class="game-image placeholder" aria-label="Placeholder image for unannounced game">
+            <span>...TOILET?!</span>
+          </div>
+          <div class="game-content">
+            <p class="tag">Prototype</p>
+            <h3>Unannounced Game</h3>
+            <p>
+              A second project is quietly taking shape. More details when it starts behaving.
+            </p>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <div class="game-image placeholder alt" aria-label="Placeholder image for another unannounced game">
+            <span>???</span>
+          </div>
+          <div class="game-content">
+            <p class="tag">Experiment</p>
+            <h3>Another Secret Thing</h3>
+            <p>
+              Still hidden in the fog: part idea, part prototype, part beautiful disaster.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about section-pad">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Small games with personality.</h2>
+      </div>
+      <p>
+        MichelMakesGames is my little corner for game projects, prototypes, experiments,
+        and whatever odd little mechanics I cannot stop thinking about.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> MichelMakesGames</span>
+    <span class="footer-links">
+      <a href="mailto:michelmakesgames@gmail.com">Contact</a>
+      <a href="https://github.com/MichelMakesGames" target="_blank" rel="noreferrer">GitHub</a>
+    </span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
